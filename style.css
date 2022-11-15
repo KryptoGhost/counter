@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: azure;
+}
+
+main {
+    text-align: center;
+    background-color: azure;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 350px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#value {
+    font-size: 4rem;
+}
+
+.button-container {
+    margin-bottom: 100px;
+}
+
+.reset {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+button:hover {
+    background-color: aqua;
+    font-size: 1rem;
+}
