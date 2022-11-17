@@ -1,5 +1,5 @@
 let count = 0;
-const value = document.getElementById("#value");
+const value = document.getElementById("value");
 const decrease = document.querySelector(".decrease");
 const increase = document.querySelector(".increase");
 const reset = document.querySelector(".reset");
@@ -8,6 +8,7 @@ decrease.addEventListener("click", function() {
     count--;
     value.textContent = count;
     colormatch();
+    console.log();
 });
 
 increase.addEventListener("click", function() {
